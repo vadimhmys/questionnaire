@@ -1,0 +1,39 @@
+.container {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.text {
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* 1 variant */
+
+.container-1 {
+  background-image: url(./images/flower.jpg);
+}
+
+.text-1 {
+  padding: 30% 30%;
+}
+
+/* 2 variant */
+.text-2 {
+  max-width: 300px;
+  transform: translate(70%, -400%);
+}
+
+/* 3 variant */
+
+.container-3 {
+  position: relative;
+}
+
+.text-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
